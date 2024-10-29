@@ -1,0 +1,28 @@
+# Train/val
+train: /first_disk/hongzheng/yolov8_detection/yolo-V8/datasets/8_21_eight/images/train
+val: /first_disk/hongzheng/yolov8_detection/yolo-V8/datasets/8_21_eight/images/val
+test: # test images
+
+# Classes
+nc: 19  # number of classes
+names: [
+    'Eucommia_cork_cell',
+    'Eucommia_rubber_fiber',
+    'Eucommia_stone_cell',
+    'Mulberry_stone_cell',
+    'Mulberry_perianth_parenchyma_cell',
+    'Epimedium_upper_epidermal_cell',
+    'Epimedium_non_glandular_trichome',
+    'Epimedium_lower_epidermis_and_stomata',
+    'Epimedium_fibers_and_calcium_oxalate_rystals',
+    'Cistanche_vessel',
+    'Cistanche_epidermal_cell',
+    'Euryale_starch_granule',
+    'Euryale_compound_starch_granule',
+    'Cuscuta_cotyledon_cell_with_starch_and_oil_drop',
+    'Cuscuta_palisade_cell',
+    'Cuscuta_epidermal_cell',
+    'Coix_starch_granule',
+    'Leek_endosperm_cell',
+    'Leek_epidermal_cell'
+]
